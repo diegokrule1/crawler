@@ -21,6 +21,13 @@ never to analyze the same url twice.
 The fact that we are using channels and go routine allows the application to
 analyse several url concurrently
 
+Yuo need to define the following environment variables:
+
+`POSTGRES_USER`: The postgres user
+`POSTGRES_PASSWORD`: The postgres password
+`POSTGRES_DB`: The name of the database
+`POSTGRES_HOST`: The name of the host the the database is running
+
 ## Limitations
 
 The current crawler only "walks" the url. Much more could be done by analysing the responses.
