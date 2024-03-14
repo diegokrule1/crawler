@@ -1,0 +1,1 @@
+create table url(id varchar(36) primary key, scheme varchar(8), host text, path text, insertion_date timestamp,parent varchar(36), state varchar(16),constraint unique_url unique (scheme, host, path), constraint parent_fk foreign key (parent) references url (id));
