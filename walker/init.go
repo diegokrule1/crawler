@@ -61,8 +61,6 @@ func createLogger() (*zap.Logger, error) {
 	}
 	stringifiedId := id.String()
 	logger := InitLogger(zap.Stringp("id", &stringifiedId))
-	logger.Info("This is the first string")
-	logger.Info("This is the second string")
 	return logger, nil
 }
 
