@@ -10,7 +10,7 @@ Then run `go build` to compile it
 
 ## Design decisions
 
-There is a database to stored already visited urls. The database is postgres
+There is a database to store already visited urls. The database is postgres
 and there is only one table which is defined on [here](https://github.com/diegokrule1/crawler/blob/start/migrations/url_up.sql)
 
 The application is design following a producer-consumer patttern, where the producer stores
