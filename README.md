@@ -51,7 +51,7 @@ The app goes on as long as there is at least one url on a state which is not "pr
 This can be further improved by having a notification mechanism from the producers to the consumers.
 
 Only one integration test has been made to test the happy path case. This is
-not enough to ensure the application correctness. More test need to be added 
+not enough to ensure the application correctness. More tests need to be added 
 which test more cases
 
 ## How To Run
