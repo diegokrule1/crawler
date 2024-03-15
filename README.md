@@ -47,7 +47,7 @@ of a ticker, that is periodically inspecting the database in order to see if the
 left to be done.
 Urls have state on the database. When one is created it is on the state "created", when it is being analysed it
 is on the state "processing". Finally when the url analysis is finished it is on the state "processed".
-The app goes on as long as there is at least one url on a state which is not "processed"
+The app goes on as long as there is at least one url on a state which is not "processed".
 This can be further improved by having a notification mechanism from the producers to the consumers.
 
 Only one integration test has been made to test the happy path case. This is
