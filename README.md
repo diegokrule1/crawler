@@ -18,7 +18,7 @@ the newly found url on the database and the consumer does the analysis.
 Since there is a `constraint unique` on the url on the database we make sure 
 never to analyze the same url twice.
 
-The fact that we are using channels and go routine allows the application to
+The fact that we are using channels and go routines allows the application to
 analyse several url concurrently
 
 Yuo need to define the following environment variables:
