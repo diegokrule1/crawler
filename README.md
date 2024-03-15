@@ -36,7 +36,7 @@ Yuo need to define the following environment variables:
 The current crawler only "walks" the url. Much more could be done by analysing the responses.
 Currently only "text/html" responses are considered. This was only to keep this simple.
 
-For simplicity, only anchor tags are considered to get child urld. This could be extended to forms and ajax call.
+For simplicity, only anchor tags are considered to get child urls. This could be extended to forms and ajax call.
 
 Also on the database the structure winds up being a tree and not a more complex graph. That is,
 a page only has one father. This does not always hold, you can get to one page from different places.
