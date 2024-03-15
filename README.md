@@ -13,7 +13,7 @@ Then run `go build` to compile it
 There is a database to store already visited urls. The database is postgres
 and there is only one table which is defined on [here](https://github.com/diegokrule1/crawler/blob/start/migrations/url_up.sql)
 
-The application is design following a producer-consumer patttern, where the producer stores
+The application is designed following a producer-consumer patttern, where the producer stores
 the newly found url on the database and the consumer does the analysis.
 Since there is a `constraint unique` on the url on the database we make sure 
 never to analyze the same url twice.
