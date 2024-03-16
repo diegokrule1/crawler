@@ -1,6 +1,6 @@
 module github.com/diegokrule1/crawler
 
-go 1.21.4
+go 1.21.8
 
 require (
 	github.com/google/uuid v1.6.0
